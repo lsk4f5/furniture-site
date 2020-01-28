@@ -1,31 +1,31 @@
 .header{
 background-color: white;
 color: gray;
+height: 50px;
 }
 
 .header-list{
 list-style: none;
-float: left;
 }
 
-/*後でメインを付け足す*/
-
-.copy-container img{
-
-    /*後で％にする*/
-    width: 544px;
-    height: 500px;
-    margin-top: 943px;
-    margin-left: 88px;
+.header-list li{
+    display: inline-flex;
 }
 
-.copy{
-    float:left
+.header-logo{
+    float: left;
+    margin-left:88px;
 }
-.copy h3{
-    font-size: 25px;
-    color: #3B3B3B;
+
+.navi{
+    float:right;
+    margin-right: 90px;
 }
-.copy p{
-    
+
+
+.main-image{
+    text-align: center;
+    width: 100%;
 }
+
+
