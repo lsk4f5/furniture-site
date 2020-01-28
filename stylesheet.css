@@ -1,0 +1,31 @@
+.header{
+background-color: white;
+color: gray;
+}
+
+.header-list{
+list-style: none;
+float: left;
+}
+
+/*後でメインを付け足す*/
+
+.copy-container img{
+
+    /*後で％にする*/
+    width: 544px;
+    height: 500px;
+    margin-top: 943px;
+    margin-left: 88px;
+}
+
+.copy{
+    float:left
+}
+.copy h3{
+    font-size: 25px;
+    color: #3B3B3B;
+}
+.copy p{
+    
+}
