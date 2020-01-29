@@ -50,3 +50,25 @@ list-style: none;
     margin-top: 50px;
     margin-left: 420px;
 }
+
+.news-container h3{
+    text-align: center;
+    margin-top: 160px;
+}
+
+.news-container img{
+    margin-left: 190px;
+    margin-top: 40px;
+}
+
+.contact-form{
+    text-align: center;
+}
+
+.contact-form h2{
+    margin-top: 170px;
+}
+
+.form{
+    display: inline-flex;
+}
