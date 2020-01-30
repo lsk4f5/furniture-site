@@ -28,7 +28,6 @@ list-style: none;
     width: 100%;
 }
 
-
 .copy-container img{
     margin-top: 80px;
     margin-left: 88px;
@@ -36,7 +35,6 @@ list-style: none;
 }
 
 .copy{
-    float: right;
     margin-top: 150px;
     margin-right: 140px;
 }
@@ -48,7 +46,6 @@ list-style: none;
 
 .style-container img{
     margin-top: 50px;
-    margin-left: 420px;
 }
 
 .news-container h3{
