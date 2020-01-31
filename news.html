@@ -3,41 +3,44 @@
     <head>
         <meta charset="utf-8">
         <title>HTML/CSS</title>
-        <link rel="stylesheet" href="stylesheet.css">
+        <link rel="stylesheet" href="stylesheet02.css">
+        <link rel="stylesheet" href="reset.css">
     </head>
     <body>
-        <div class="news-header">
+        <div class="header">
             <div class="header-logo">
-                HTML<br>CSS
+                <h1>HTML<br>CSS</h1>
             </div>
-            <div class="news-navi">
-                <ul>
+            <div class="navi">
+                <ul class="header-list">
                     <li>About</li>
                     <li>News</li>
                     <li>Q&A</li>
                 </ul>
             </div>
         </div>
-        <div class="news-main">
-            <h1>NEWS</h1>
+        <div class="top-main">
+            <!-- <h2>NEWS</h2> -->
+            <img src="img/news-main.jpeg" >
+        </div>
+    
+        <div class="news-container">
+            <h3>最新情報</h3>
             <!--ここに画像-->
+            <img src="img/news-1-pc.jpeg">
+            <img src="img/news-2-pc.jpeg">
+            <img src="img/news-3-pc.jpeg">
         </div>
-        <div class="information">
-            <h2>最新情報</h2>
-            <!--ここに画像３枚-->
-        </div>
-        <div class="news-footer">
-            <div class="footer-logo">
-                HTML<br>CSS
+        <div class="footer">
+            <div class="flex">
+                <div class="footer-logo">HTML<br>CSS</div>
+                     <ul class="footer-list">
+                        <li>About</li>
+                        <li>News</li>
+                        <li>Q&A</li>
+                    </ul>
             </div>
-            <div class="footer-list">
-                <ul>
-                    <li>About</li>
-                    <li>News</li>
-                    <li>Q&A</li>
-                </ul>
-            </div>
-            <p>@HTMLCSS.code</p>
-        </div>
+            <div class="footer-last"><p>@HTMLCSS.code</p></div>
+         </div>
     </body>
 </html>
