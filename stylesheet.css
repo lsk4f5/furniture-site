@@ -147,12 +147,6 @@ ul.footer-list{
     margin-left: 104px;
 }
 
-ul.footer-list li:last-of-type{
-    /* margin: 0; */
-}
-
- 
-
 .footer-last{
     background-color: #918f89;
     color: white;
