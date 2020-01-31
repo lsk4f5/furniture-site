@@ -1,2 +1,85 @@
 @charset "utf-8";
 /* Q&Aページのcss */
+.header{
+    background-color: white;
+    color: gray;
+    height: 20%;
+    font-size: 16px;
+}
+
+.header-logo{
+    float: left;
+    padding-top: 2%;
+    padding-left: 10%;
+}
+
+ .navi{
+    float:right;
+    margin-right: 70px;
+    width: 25%;
+}
+
+.header-list{
+    list-style: none;
+}
+
+.header-list li{
+    display: inline-flex;
+    padding: 8%;
+}
+
+.top-main img { 
+    width: 100%;
+    height: auto; 
+} 
+
+.question{
+    text-align: center;
+    margin-top: 8%;
+}
+
+.question h2{
+    font-size: 21px;
+    padding-top: 8%;
+}
+
+.question p{
+    font-size: 19px;
+    padding-top: 8%;
+}
+
+.footer{
+    background-color: #918f89;
+    color: white;
+    width: 100%;
+    height: 284px;
+    margin-top: 20%;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between; 
+    padding: 116px 221px 71px 227px;
+}
+
+.footer-logo{
+    box-sizing: border-box;
+    font-size: 22px;
+}
+
+ul.footer-list{
+    display: flex;
+    font-size: 18px;
+}
+
+.footer-list li{
+    margin-left: 104px;
+}
+
+.footer-last{
+    background-color: #918f89;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    /* clear: both; */
+}
