@@ -5,6 +5,7 @@
     background-color: white;
     color: gray;
     height: 20%;
+    font-size: 16px;
 }
 
 .header-logo{
@@ -21,6 +22,7 @@
 
 .header-list{
     list-style: none;
+
 }
 
 .header-list li{
@@ -36,6 +38,8 @@
 .news-container h3{
     text-align: center;
     margin-top: 11%;
+    font-size: 21px;
+    margin-top: 8%;
 }
 
 .news-container img{
@@ -61,11 +65,12 @@
 
 .footer-logo{
     box-sizing: border-box;
+    font-size: 22px;
 }
 
 ul.footer-list{
     display: flex;
-
+    font-size: 18px;
 }
 
 .footer-list li{
@@ -76,5 +81,6 @@ ul.footer-list{
     background-color: #918f89;
     color: white;
     text-align: center;
+    font-size: 10px;
     /* clear: both; */
 }
