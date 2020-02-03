@@ -85,6 +85,15 @@
     margin-top: 8%;
 }
 
+.style-btn button {
+    outline: none;
+    border: none;
+}
+
+.button3{
+    color: slategrey;
+}
+
  .contact-form{
     text-align: center;
 } 
