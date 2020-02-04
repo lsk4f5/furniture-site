@@ -43,6 +43,8 @@
   position: absolute;
   color: #918f89;
   font-size: 30px;
+  top: 0;
+  margin-top: 324px;
 }
 
 .news-container h3 {
