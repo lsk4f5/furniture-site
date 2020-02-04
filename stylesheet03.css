@@ -1,0 +1,165 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans&display=swap");
+
+/* Q&Aページのcss */
+a {
+  color: #272727;
+}
+
+.header {
+  background-color: white;
+  color: #918f89;
+  height: 20%;
+  font-size: 16px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.header-logo {
+  float: left;
+  padding-top: 2%;
+  padding-left: 10%;
+}
+
+.navi {
+  float: right;
+  margin-right: 70px;
+  width: 25%;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.header-list {
+  list-style: none;
+}
+
+.header-list li {
+  display: inline-flex;
+  padding: 8%;
+}
+
+.header-list a {
+  text-decoration: none;
+}
+
+.top-main {
+  position: relative;
+  z-index: -1;
+}
+
+.top-main img {
+  width: 100%;
+  height: auto;
+}
+
+.top-main p {
+  position: absolute;
+  color: #ffffff;
+  font-size: 30px;
+  top: 0;
+  margin: 247px 960px 199px 240px;
+  font-family: "Noto Sans", sans-serif;
+  letter-spacing: 3px;
+  /* text-shadow: 5px 5px lgb (255, 255, 255, 0.5); */
+  text-shadow: 10px 10px rgba(247, 246, 246, 0.2);
+}
+
+/* .question{
+    text-align: center;
+    margin-top: 8%;
+}
+
+.question span{
+    margin-left: 13%;
+}
+
+.question h2{
+    font-size: 21px;
+    padding-top: 8%;
+}
+
+.question p{
+    font-size: 19px;
+    padding-top: 8%;
+} */
+
+.question {
+  margin: 98px 0 215px 0;
+  text-align: center;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: lighter;
+  color: #3b3b3b;
+}
+
+.question h2 {
+  margin-bottom: 73px;
+  letter-spacing: 2px;
+}
+
+.acd-check {
+  display: none;
+  /* margin: 10%; */
+  margin-bottom: 100px;
+}
+.acd-label {
+  /* background: #333; */
+  /* color: #fff; */
+  display: block;
+  margin-bottom: 100px;
+  padding: 10px;
+}
+.acd-content {
+  /* border: 1px solid #333; */
+  height: 0;
+  opacity: 0;
+  /* padding: 0 10px; */
+  transition: 0.5s;
+  visibility: hidden;
+  margin-top: 92px;
+}
+.acd-check:checked + .acd-label + .acd-content {
+  height: 40px;
+  opacity: 1;
+  margin: 0 0 10% 0;
+  visibility: visible;
+}
+
+.footer {
+  background-color: #918f89;
+  color: white;
+  width: 100%;
+  height: 284px;
+  margin-top: 20%;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 116px 221px 71px 227px;
+}
+
+.footer-logo {
+  box-sizing: border-box;
+  font-size: 22px;
+}
+
+ul.footer-list {
+  display: flex;
+  font-size: 18px;
+}
+
+.footer-list li {
+  margin-left: 104px;
+}
+
+.footer-last {
+  background-color: #918f89;
+  color: white;
+  text-align: center;
+  font-size: 10px;
+  /* clear: both; */
+}
+
+.footer-list a {
+  text-decoration: none;
+  color: #ffffff;
+}

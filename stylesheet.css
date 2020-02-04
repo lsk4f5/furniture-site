@@ -1,0 +1,234 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans&display=swap");
+
+/* トップページのcss */
+a {
+  color: #272727;
+}
+
+.header {
+  background-color: white;
+  color: gray;
+  height: 20%;
+  font-size: 16px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.header-logo {
+  float: left;
+  padding-top: 2%;
+  padding-left: 10%;
+}
+
+.navi {
+  float: right;
+  margin-right: 70px;
+  width: 25%;
+  font-family: "Noto Sans", sans-serif;
+  /* z-index: 20; */
+}
+
+.header-list {
+  list-style: none;
+}
+
+.header-list li {
+  display: inline-flex;
+  padding: 8%;
+}
+
+.header-list a {
+  text-decoration: none;
+}
+
+.main-image {
+  position: relative;
+  z-index: -1;
+}
+
+.main-image img {
+  width: 100%;
+  height: auto;
+}
+
+.main-image p {
+  top: 0;
+  margin-top: 324px;
+  font-size: 55px;
+  position: absolute;
+  color: #918f91;
+  background: #ffffff;
+  opacity: 0.8;
+  width: 554px;
+  height: 82px;
+  padding: 45px 45px 20px 88px;
+  letter-spacing: 0.3rem;
+  font-family: "Noto Sans", sans-serif;
+}
+.copy-container img {
+  width: 33%;
+  margin-top: 11%;
+  margin-left: 88px;
+}
+
+.copy {
+  margin-top: 18%;
+  margin-right: 15%;
+  margin-left: 70px;
+  float: right;
+  font-family: "Noto Sans", sans-serif;
+  color: #3b3b3b;
+}
+
+.copy h1 {
+  font-size: 29px;
+}
+
+.copy p {
+  font-size: 12px;
+  line-height: 3;
+  margin-top: 40px;
+}
+.style-container {
+  margin-top: 11%px;
+  text-align: center;
+  font-family: "Noto Sans", sans-serif;
+}
+.style-container img {
+  width: 40%;
+}
+
+.style-container h2 {
+  margin-top: 11%;
+  margin-bottom: 4%;
+  font-size: 29px;
+  font-weight: lighter;
+  letter-spacing: 0.3rem;
+  color: #3b3b3b;
+}
+
+.news-container h3 {
+  text-align: center;
+  margin-top: 11%;
+  font-size: 25px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.news-container a {
+  text-decoration: none;
+}
+
+.news-container img {
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%;
+  width: 23%;
+}
+
+.news-container h3 {
+  margin-top: 8%;
+  color: #3b3b3b;
+}
+
+.style-btn button {
+  outline: none;
+  border: none;
+}
+
+.button3 {
+  color: slategrey;
+}
+
+.contact-form {
+  text-align: center;
+  color: #3b3b3b;
+}
+
+.contact-form h3 {
+  margin-top: 25%;
+  margin-bottom: 10%;
+  font-size: 29px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.contact-form p {
+  margin: 6%;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.form1 {
+  width: 36%;
+  line-height: 28px;
+  border-radius: 11px;
+  border: 0.5px solid #707070;
+  opacity: 0.6;
+  padding-left: 1%;
+}
+
+.form2 {
+  width: 36%;
+  line-height: 28px;
+  border-radius: 11px;
+  border: 0.5px solid #707070;
+  opacity: 0.6;
+  padding-left: 1%;
+}
+
+.form3 {
+  width: 36%;
+  height: 156px;
+  border-radius: 11px;
+  border: 0.5px solid #707070;
+  opacity: 0.6;
+  padding-left: 1%;
+  padding-top: 1%;
+}
+
+.btn {
+  width: 10%;
+  line-height: 30px;
+  border-radius: 20px;
+  background-color: #d1d1d1;
+  margin-bottom: 20%;
+}
+
+.footer {
+  background-color: #918f89;
+  color: white;
+  width: 100%;
+  height: 284px;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 116px 221px 71px 227px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.footer-logo {
+  box-sizing: border-box;
+  font-size: 22px;
+}
+
+ul.footer-list {
+  display: flex;
+  font-size: 18px;
+}
+
+.footer-list li {
+  margin-left: 104px;
+}
+
+.footer-last {
+  background-color: #918f89;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  /* clear: both; */
+}
+
+.footer-list a {
+  text-decoration: none;
+  color: #ffffff;
+}
