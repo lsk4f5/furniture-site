@@ -30,6 +30,7 @@
 
 .top-main {
   position: relative;
+  z-index: -1;
 }
 
 .top-main img {
