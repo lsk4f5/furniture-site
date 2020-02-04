@@ -21,6 +21,7 @@
   margin-right: 70px;
   width: 25%;
   font-family: "Noto Sans", sans-serif;
+  /* z-index: 20; */
 }
 
 .header-list {
@@ -34,6 +35,7 @@
 
 .main-image {
   position: relative;
+  z-index: -1;
 }
 
 .main-image img {
