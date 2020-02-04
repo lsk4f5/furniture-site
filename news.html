@@ -6,6 +6,7 @@
     <title>HTML/CSS</title>
     <link rel="stylesheet" href="stylesheet02.css">
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="test.css">
 </head>
 
 <body>
@@ -24,9 +25,10 @@
     <div class="top-main">
         <!-- <h2>NEWS</h2> -->
         <img src="img/news-main.jpeg">
+        <p>NEWS</p>
     </div>
 
-    <div class="news-container">
+    <div class="news-container" id="id-news-container">
         <h3>最新情報</h3>
         <!--ここに画像-->
         <img src="img/news-1-pc.jpeg">
@@ -47,6 +49,11 @@
         </div>
     </div>
 
+    <!-- <script>
+        const news = document.getElementById("id-news-container");
+        news.classList.toggle('fade-out');
+        news.classList.toggle('fade-in');
+    </script> -->
 </body>
 
 </html>
