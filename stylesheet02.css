@@ -6,7 +6,7 @@ a {
   color: #272727;
 }
 
-.header {
+header {
   background-color: white;
   color: gray;
   height: 20%;
@@ -20,7 +20,7 @@ a {
   padding-left: 10%;
 }
 
-.navi {
+nav {
   float: right;
   margin-right: 70px;
   width: 25%;
@@ -50,7 +50,7 @@ a {
   height: auto;
 }
 
-.top-main p {
+.top-main h2 {
   position: absolute;
   color: #918f89;
   font-size: 30px;
@@ -59,7 +59,7 @@ a {
   font-family: "Noto Sans", sans-serif;
 }
 
-.news-container h3 {
+.news-container h2 {
   text-align: center;
   margin-top: 11%;
   font-size: 21px;
@@ -73,13 +73,11 @@ a {
 }
 
 .news-container img {
-  margin-top: 5%;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin: 5% 5% 320px 5%;
   width: 23%;
 }
 
-.footer {
+footer {
   background-color: #918f89;
   color: white;
   width: 100%;
