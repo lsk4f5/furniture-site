@@ -6,7 +6,7 @@ a {
   color: #272727;
 }
 
-.header {
+.main-header {
   background-color: white;
   color: gray;
   height: 20%;
@@ -20,7 +20,7 @@ a {
   padding-left: 10%;
 }
 
-.navi {
+nav {
   float: right;
   margin-right: 70px;
   width: 25%;
