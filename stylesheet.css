@@ -101,10 +101,16 @@ nav {
 .style-container h2 {
   margin-top: 11%;
   margin-bottom: 4%;
-  font-size: 29px;
+  font-size: 26px;
   font-weight: lighter;
-  letter-spacing: 0.3rem;
+  letter-spacing: 0.2rem;
   color: #3b3b3b;
+}
+
+.news-container {
+  max-width: 100%;
+  max-height: 520px;
+  /* overflow: hidden; */
 }
 
 .news-container h2 {
@@ -118,16 +124,63 @@ nav {
   text-decoration: none;
 }
 
-.news-container img {
-  margin-top: 5%;
-  margin-left: 5%;
-  margin-right: 5%;
-  width: 23%;
-}
+/* .news-img p {
+  display: none;
+} */
 
 .news-container h2 {
   margin-top: 8%;
   color: #3b3b3b;
+}
+
+/* ここからスライド */
+.container {
+  width: 275.77px;
+  height: 319.52px;
+  /* border: 1px solid black; */
+  position: relative;
+  margin: 7%;
+}
+
+.container img {
+  width: 275.77px;
+  height: 319.52px;
+}
+
+.text {
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translate(-50%, -50%);
+  color: transparent;
+  transition: 0.3s ease;
+  width: 275.77px;
+  text-align: center;
+  opacity: 0.8;
+}
+
+.container::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: 0.3s ease;
+}
+
+.container:hover:before {
+  height: 100%;
+}
+
+.container:hover .text {
+  color: white;
+  top: 50%;
+}
+
+.slide-container {
+  display: flex;
 }
 
 .style-btn button {
