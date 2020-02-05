@@ -70,10 +70,9 @@ nav {
   letter-spacing: 0.3rem;
 }
 
-/* .news-container img {
-  margin: 5% 5% 320px 5%;
-  width: 23%;
-} */
+.news-container {
+  margin-bottom: 15%;
+}
 
 /* ここからスライド */
 .container {
