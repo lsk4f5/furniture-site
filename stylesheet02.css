@@ -20,7 +20,7 @@ header {
   padding-left: 10%;
 }
 
-nav {
+.navi {
   float: right;
   margin-right: 70px;
   width: 25%;
@@ -125,7 +125,7 @@ nav {
   display: flex;
 }
 
-footer {
+.footer {
   background-color: #918f89;
   color: white;
   width: 100%;
