@@ -121,6 +121,13 @@ nav {
   font-family: "Noto Sans", sans-serif;
 }
 
+.news-container p {
+  text-align: center;
+  margin-top: 7%;
+  font-size: 25px;
+  font-family: "Noto Sans", sans-serif;
+}
+
 .news-container a {
   text-decoration: none;
 }
@@ -199,7 +206,7 @@ nav {
 }
 
 .contact-form h2 {
-  margin-top: 25%;
+  margin-top: 30%;
   margin-bottom: 10%;
   font-size: 29px;
   font-family: "Noto Sans", sans-serif;
