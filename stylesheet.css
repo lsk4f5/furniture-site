@@ -35,6 +35,7 @@ nav {
 .header-list li {
   display: inline-flex;
   padding: 8%;
+  opacity: 0.8;
 }
 
 .header-list a {
