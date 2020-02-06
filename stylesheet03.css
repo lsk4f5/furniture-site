@@ -34,6 +34,7 @@ header {
 .header-list li {
   display: inline-flex;
   padding: 8%;
+  opacity: 0.8;
 }
 
 .header-list a {
@@ -73,6 +74,7 @@ header {
 .question h2 {
   margin-bottom: 73px;
   letter-spacing: 2px;
+  font-weight: lighter;
 }
 
 .acd-check {
@@ -103,7 +105,7 @@ header {
   visibility: visible;
 }
 
-footer {
+.footer {
   background-color: #918f89;
   color: white;
   width: 100%;
