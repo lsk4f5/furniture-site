@@ -6,39 +6,8 @@ a {
   color: #272727;
 }
 
-header {
-  background-color: white;
-  color: gray;
-  height: 20%;
-  font-size: 16px;
-  font-family: "Noto Sans", sans-serif;
-}
-
-.header-logo {
-  float: left;
-  padding-top: 2%;
-  padding-left: 10%;
-}
-
 .navi {
-  float: right;
-  margin-right: 70px;
-  width: 25%;
   font-family: "Noto Sans", sans-serif;
-}
-
-.header-list {
-  list-style: none;
-}
-
-.header-list li {
-  display: inline-flex;
-  padding: 8%;
-  opacity: 0.8;
-}
-
-.header-list a {
-  text-decoration: none;
 }
 
 .top-main {
@@ -144,26 +113,4 @@ header {
 .footer-logo {
   box-sizing: border-box;
   font-size: 22px;
-}
-
-ul.footer-list {
-  display: flex;
-  font-size: 18px;
-}
-
-.footer-list li {
-  margin-left: 104px;
-}
-
-.footer-last {
-  background-color: #918f89;
-  color: white;
-  text-align: center;
-  font-size: 10px;
-  /* clear: both; */
-}
-
-.footer-list a {
-  text-decoration: none;
-  color: #ffffff;
 }
