@@ -121,7 +121,8 @@ nav {
   font-family: "Noto Sans", sans-serif;
 }
 
-.news-container p {
+.news-container a {
+  display: block;
   text-align: center;
   margin-top: 5%;
   font-size: 25px;
