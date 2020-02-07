@@ -6,41 +6,6 @@ a {
   color: #272727;
 }
 
-header {
-  background-color: white;
-  color: #918f89;
-  height: 20%;
-  font-size: 16px;
-  font-family: "Noto Sans", sans-serif;
-}
-
-.header-logo {
-  float: left;
-  padding-top: 2%;
-  padding-left: 10%;
-}
-
-.navi {
-  float: right;
-  margin-right: 70px;
-  width: 25%;
-  font-family: "Noto Sans", sans-serif;
-}
-
-.header-list {
-  list-style: none;
-}
-
-.header-list li {
-  display: inline-flex;
-  padding: 8%;
-  opacity: 0.8;
-}
-
-.header-list a {
-  text-decoration: none;
-}
-
 .top-main {
   position: relative;
   z-index: -1;
@@ -56,7 +21,7 @@ header {
   color: #ffffff;
   font-size: 30px;
   top: 0;
-  margin: 247px 960px 199px 240px;
+  margin: 187px 960px 199px 240px;
   font-family: "Noto Sans", sans-serif;
   letter-spacing: 3px;
   /* text-shadow: 5px 5px lgb (255, 255, 255, 0.5); */
