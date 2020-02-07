@@ -9,32 +9,33 @@ a {
 .main-header {
   background-color: white;
   color: gray;
-  height: 20%;
+  height: 55px;
   font-size: 16px;
   font-family: "Noto Sans", sans-serif;
-}
-
-.header-logo {
-  float: left;
+  display: flex;
   padding-top: 2%;
-  padding-left: 10%;
+  padding-left: 89px;
+  padding-right: 89px;
+  justify-content: space-between;
 }
 
 nav {
-  float: right;
-  margin-right: 70px;
-  width: 25%;
+  display: flex;
+  /* margin-right: 70px; */
+  /* width: 25%; */
   font-family: "Noto Sans", sans-serif;
   /* z-index: 20; */
 }
 
 .header-list {
   list-style: none;
+  display: flex;
+  padding-top: 3%;
 }
 
 .header-list li {
   display: inline-flex;
-  padding: 8%;
+  padding-left: 111px;
   opacity: 0.8;
 }
 
@@ -72,13 +73,21 @@ nav {
   margin-left: 88px;
 }
 
+.copy-container {
+  width: 100%;
+}
+
 .copy {
-  margin-top: 18%;
-  margin-right: 15%;
-  margin-left: 70px;
-  float: right;
   font-family: "Noto Sans", sans-serif;
   color: #3b3b3b;
+  background-image: url("img/main-pc.jpeg");
+  background-repeat: no-repeat;
+  background-position: top 142px left 88px;
+  background-size: 500px 544px;
+  padding-left: 702px;
+  padding-right: 104px;
+  padding-top: 343px;
+  margin: 0 auto;
 }
 
 .copy h2 {
@@ -88,7 +97,6 @@ nav {
 .copy p {
   font-size: 12px;
   line-height: 3;
-  margin-top: 40px;
 }
 .style-container {
   margin-top: 11%px;
