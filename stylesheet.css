@@ -96,10 +96,17 @@ nav {
   margin-top: 11%px;
   text-align: center;
   font-family: "Noto Sans", sans-serif;
-}
-.style-container img {
+  background-image: url("img/style-pc01.jpeg");
+  background-size: contain;
   width: 40%;
+  height: 503px;
+  margin: auto;
+  background-repeat: no-repeat;
+  text-align: center;
 }
+/* .style-container img {
+  width: 40%;
+} */
 
 .style-container h2 {
   margin-top: 11%;
