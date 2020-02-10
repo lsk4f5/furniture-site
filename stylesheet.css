@@ -45,12 +45,9 @@ nav {
 
 .main-image {
   position: relative;
-  z-index: -1;
-}
-
-.main-image img {
+  background-image: url("img/top-pc.jpeg");
+  height: 741px;
   width: 100%;
-  height: auto;
 }
 
 .main-image h1 {
@@ -75,6 +72,7 @@ nav {
 
 .copy-container {
   width: 100%;
+  box-sizing: border-box;
   font-family: "Noto Sans", sans-serif;
   color: #3b3b3b;
   background-image: url("img/main-pc.jpeg");
