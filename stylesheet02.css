@@ -11,8 +11,10 @@ a {
 }
 
 .top-main {
+  height: 415px;
   position: relative;
-  z-index: -1;
+  background-image: url("img/news-main.jpeg");
+  background-size: cover;
 }
 
 .top-main img {
@@ -49,7 +51,6 @@ a {
 .container {
   width: 275.77px;
   height: 319.52px;
-  /* border: 1px solid black; */
   position: relative;
   margin: 7%;
 }
