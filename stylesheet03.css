@@ -44,21 +44,16 @@ a {
 
 .acd-check {
   display: none;
-  /* margin: 10%; */
   margin-bottom: 100px;
 }
 .acd-label {
-  /* background: #333; */
-  /* color: #fff; */
   display: block;
   margin-bottom: 100px;
   padding: 10px;
 }
 .acd-content {
-  /* border: 1px solid #333; */
   height: 0;
   opacity: 0;
-  /* padding: 0 10px; */
   transition: 0.5s;
   visibility: hidden;
   margin-top: 92px;
