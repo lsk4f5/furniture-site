@@ -92,29 +92,30 @@ nav {
   font-size: 12px;
   line-height: 3;
 }
-.style-container {
-  margin-top: 11%px;
-  text-align: center;
-  font-family: "Noto Sans", sans-serif;
-  background-image: url("img/style-pc01.jpeg");
-  background-size: contain;
-  width: 40%;
-  height: 503px;
-  margin: auto;
-  background-repeat: no-repeat;
+
+.style-container-wrap {
   text-align: center;
 }
-/* .style-container img {
-  width: 40%;
-} */
 
-.style-container h2 {
+.style-container {
+  background-image: url("img/style-pc01.jpeg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50% 50%;
+  height: 503px;
+  /* width: 964px; */
+  width: 100%;
+}
+
+.style-container-wrap h2 {
   margin-top: 11%;
   margin-bottom: 4%;
   font-size: 26px;
   font-weight: lighter;
   letter-spacing: 0.2rem;
   color: #3b3b3b;
+  text-align: center;
+  font-family: "Noto Sans", sans-serif;
 }
 
 .news-container {
@@ -214,6 +215,7 @@ nav {
   outline: none;
   border: none;
   background: none;
+  margin-top: 30px;
 }
 
 .button3 {

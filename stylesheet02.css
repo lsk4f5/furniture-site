@@ -17,11 +17,6 @@ a {
   background-size: cover;
 }
 
-.top-main img {
-  width: 100%;
-  height: auto;
-}
-
 .top-main h2 {
   position: absolute;
   color: #918f89;
@@ -90,6 +85,21 @@ a {
 .container:hover .text {
   color: white;
   top: 50%;
+}
+
+#img1 {
+  background-image: url("img/news-1-pc.jpeg");
+  background-size: contain;
+}
+
+#img2 {
+  background-image: url("img/news-2-pc.jpeg");
+  background-size: contain;
+}
+
+#img3 {
+  background-image: url("img/news-3-pc.jpeg");
+  background-size: contain;
 }
 
 .slide-container {
