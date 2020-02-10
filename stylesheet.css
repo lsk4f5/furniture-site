@@ -46,6 +46,7 @@ nav {
 .main-image {
   position: relative;
   background-image: url("img/top-pc.jpeg");
+  background-size: cover;
   height: 741px;
   width: 100%;
 }
@@ -94,28 +95,22 @@ nav {
 }
 
 .style-container-wrap {
-  text-align: center;
-}
-
-.style-container {
   background-image: url("img/style-pc01.jpeg");
   background-repeat: no-repeat;
-  background-size: contain;
-  background-position: 50% 50%;
-  height: 503px;
-  /* width: 964px; */
+  background-position: 50% 150%;
+  background-size: 964px 503px;
   width: 100%;
 }
 
 .style-container-wrap h2 {
   margin-top: 11%;
-  margin-bottom: 4%;
   font-size: 26px;
   font-weight: lighter;
   letter-spacing: 0.2rem;
   color: #3b3b3b;
-  text-align: center;
   font-family: "Noto Sans", sans-serif;
+  padding-bottom: 530px;
+  text-align: center;
 }
 
 .news-container {
@@ -209,6 +204,10 @@ nav {
 #img3 {
   background-image: url("img/news-3-pc.jpeg");
   background-size: contain;
+}
+
+.style-btn {
+  text-align: center;
 }
 
 .style-btn button {
