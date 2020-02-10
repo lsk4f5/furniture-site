@@ -11,19 +11,19 @@ a {
 }
 
 .top-main {
-  height: 415px;
-  position: relative;
+  /* position: relative; */
   background-image: url("img/news-main.jpeg");
   background-size: cover;
+  background-position: 1% 2%;
+  padding: 216px 0px 207px 228px;
+  font-size: 30px;
+  color: #918f89;
+  font-family: "Noto Sans", sans-serif;
 }
 
-.top-main h2 {
-  position: absolute;
-  color: #918f89;
-  font-size: 30px;
+.top-main h1 {
+  /* position: absolute; */
   top: 0;
-  margin: 216px 956px 207px 228px;
-  font-family: "Noto Sans", sans-serif;
   font-weight: lighter;
 }
 
