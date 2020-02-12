@@ -1,127 +1,129 @@
 @charset "utf-8";
 @import url("https://fonts.googleapis.com/css?family=Noto+Sans&display=swap");
 
-/* newsページのcss */
-a {
-  color: #272727;
-}
+@media screen and (min-width: 479px) {
+  /* newsページのcss */
+  a {
+    color: #272727;
+  }
 
-.navi {
-  font-family: "Noto Sans", sans-serif;
-}
+  .navi {
+    font-family: "Noto Sans", sans-serif;
+  }
 
-.top-main {
-  /* position: relative; */
-  background-image: url("img/news-main.jpeg");
-  background-size: cover;
-  background-position: 1% 2%;
-  padding: 216px 0px 207px 228px;
-  font-size: 30px;
-  color: #918f89;
-  font-family: "Noto Sans", sans-serif;
-}
+  .top-main {
+    /* position: relative; */
+    background-image: url("img/news-main.jpeg");
+    background-size: cover;
+    background-position: 1% 2%;
+    padding: 216px 0px 207px 228px;
+    font-size: 30px;
+    color: #918f89;
+    font-family: "Noto Sans", sans-serif;
+  }
 
-.top-main h1 {
-  /* position: absolute; */
-  top: 0;
-  font-weight: lighter;
-}
+  .top-main h1 {
+    /* position: absolute; */
+    top: 0;
+    font-weight: lighter;
+  }
 
-.news-container h2 {
-  text-align: center;
-  margin-top: 11%;
-  font-size: 21px;
-  margin-top: 8%;
-  font-family: "Noto Sans", sans-serif;
-  font-weight: lighter;
-  color: #3b3b3b;
-  letter-spacing: 0.3rem;
-}
+  .news-container h2 {
+    text-align: center;
+    margin-top: 11%;
+    font-size: 21px;
+    margin-top: 8%;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: lighter;
+    color: #3b3b3b;
+    letter-spacing: 0.3rem;
+  }
 
-.news-container {
-  margin-bottom: 15%;
-}
+  .news-container {
+    margin-bottom: 15%;
+  }
 
-/* ここからスライド */
-.container {
-  width: 275.77px;
-  height: 319.52px;
-  position: relative;
-  margin: 7%;
-}
+  /* ここからスライド */
+  .container {
+    width: 275.77px;
+    height: 319.52px;
+    position: relative;
+    margin: 7%;
+  }
 
-.container img {
-  width: 275.77px;
-  height: 319.52px;
-}
+  .container img {
+    width: 275.77px;
+    height: 319.52px;
+  }
 
-.text {
-  position: absolute;
-  left: 50%;
-  top: 100%;
-  transform: translate(-50%, -50%);
-  color: transparent;
-  transition: 0.3s ease;
-  width: 275.77px;
-  text-align: center;
-  opacity: 0.8;
-}
+  .text {
+    position: absolute;
+    left: 50%;
+    top: 100%;
+    transform: translate(-50%, -50%);
+    color: transparent;
+    transition: 0.3s ease;
+    width: 275.77px;
+    text-align: center;
+    opacity: 0.8;
+  }
 
-.container::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 0;
-  background-color: rgba(0, 0, 0, 0.5);
-  transition: 0.3s ease;
-}
+  .container::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease;
+  }
 
-.container:hover:before {
-  height: 100%;
-}
+  .container:hover:before {
+    height: 100%;
+  }
 
-.container:hover .text {
-  color: white;
-  top: 50%;
-}
+  .container:hover .text {
+    color: white;
+    top: 50%;
+  }
 
-#img1 {
-  background-image: url("img/news-1-pc.jpeg");
-  background-size: contain;
-}
+  #img1 {
+    background-image: url("img/news-1-pc.jpeg");
+    background-size: contain;
+  }
 
-#img2 {
-  background-image: url("img/news-2-pc.jpeg");
-  background-size: contain;
-}
+  #img2 {
+    background-image: url("img/news-2-pc.jpeg");
+    background-size: contain;
+  }
 
-#img3 {
-  background-image: url("img/news-3-pc.jpeg");
-  background-size: contain;
-}
+  #img3 {
+    background-image: url("img/news-3-pc.jpeg");
+    background-size: contain;
+  }
 
-.slide-container {
-  display: flex;
-}
+  .slide-container {
+    display: flex;
+  }
 
-.footer {
-  background-color: #918f89;
-  color: white;
-  width: 100%;
-  height: 284px;
-  margin-top: 20%;
-  font-family: "Noto Sans", sans-serif;
-}
+  .footer {
+    background-color: #918f89;
+    color: white;
+    width: 100%;
+    height: 284px;
+    margin-top: 20%;
+    font-family: "Noto Sans", sans-serif;
+  }
 
-.flex {
-  display: flex;
-  justify-content: space-between;
-  padding: 116px 221px 71px 227px;
-}
+  .flex {
+    display: flex;
+    justify-content: space-between;
+    padding: 116px 221px 71px 227px;
+  }
 
-.footer-logo {
-  box-sizing: border-box;
-  font-size: 22px;
+  .footer-logo {
+    box-sizing: border-box;
+    font-size: 22px;
+  }
 }
