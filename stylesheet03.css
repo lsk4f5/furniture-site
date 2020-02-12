@@ -8,24 +8,18 @@
   }
 
   .top-main {
-    /* height: 415px; */
-    /* position: relative; */
     background-image: url("img/Q&A-main.jpeg");
     background-size: cover;
     background-position: 1% 2%;
     padding: 216px 0px 207px 228px;
     font-size: 30px;
-    color: #918f89;
+    color: #ffffff;
     font-family: "Noto Sans", sans-serif;
-    text-shadow: 10px 10px rgba(247, 246, 246, 0.2);
   }
 
   header h1 {
-    /* position: absolute; */
     top: 0;
     letter-spacing: 3px;
-    /* text-shadow: 10px 10px rgba(247, 246, 246, 0.2); */
-    /* z-index: 1; */
   }
 
   .question {
@@ -49,8 +43,6 @@
 
   .acd-label {
     display: block;
-    /* margin-bottom: 100px; */
-    /* padding-bottom: 100px; */
   }
   .acd-content {
     height: 0;
