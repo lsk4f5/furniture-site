@@ -12,7 +12,6 @@
   }
 
   .top-main {
-    /* position: relative; */
     background-image: url("img/news-main.jpeg");
     background-size: cover;
     background-position: 1% 2%;
@@ -23,7 +22,6 @@
   }
 
   .top-main h1 {
-    /* position: absolute; */
     top: 0;
     font-weight: lighter;
   }
