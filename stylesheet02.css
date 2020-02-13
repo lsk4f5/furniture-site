@@ -18,7 +18,6 @@
     padding: 216px 0px 207px 228px;
     font-size: 30px;
     color: #918f89;
-    font-family: "Noto Sans", sans-serif;
   }
 
   .top-main h1 {
@@ -30,8 +29,6 @@
     text-align: center;
     margin-top: 11%;
     font-size: 21px;
-    margin-top: 8%;
-    font-family: "Noto Sans", sans-serif;
     font-weight: lighter;
     color: #3b3b3b;
     letter-spacing: 0.3rem;
@@ -102,25 +99,5 @@
 
   .slide-container {
     display: flex;
-  }
-
-  .footer {
-    background-color: #918f89;
-    color: white;
-    width: 100%;
-    height: 284px;
-    margin-top: 20%;
-    font-family: "Noto Sans", sans-serif;
-  }
-
-  .flex {
-    display: flex;
-    justify-content: space-between;
-    padding: 116px 221px 71px 227px;
-  }
-
-  .footer-logo {
-    box-sizing: border-box;
-    font-size: 22px;
   }
 }
