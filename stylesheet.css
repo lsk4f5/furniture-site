@@ -65,6 +65,7 @@
     padding: 45px 45px 20px 88px;
     letter-spacing: 0.3rem;
   }
+
   .copy-container img {
     width: 33%;
     margin-top: 11%;
@@ -186,16 +187,19 @@
   #img1 {
     background-image: url("img/news-1-pc.jpeg");
     background-size: contain;
+    background-repeat: no-repeat;
   }
 
   #img2 {
     background-image: url("img/news-2-pc.jpeg");
     background-size: contain;
+    background-repeat: no-repeat;
   }
 
   #img3 {
     background-image: url("img/news-3-pc.jpeg");
     background-size: contain;
+    background-repeat: no-repeat;
   }
 
   .button3 {
@@ -204,6 +208,7 @@
 
   .contact-form {
     text-align: center;
+    align-items: center;
     color: #3b3b3b;
     margin: 28% 0 25% 0;
   }
@@ -213,9 +218,7 @@
   }
 
   .form {
-    display: flex;
     flex-direction: column;
-    align-items: center;
   }
 
   .form1 {
@@ -225,7 +228,8 @@
     border: 0.5px solid #707070;
     opacity: 0.6;
     padding-left: 1%;
-    margin: 4%;
+    margin: 30px auto;
+    display: block;
   }
 
   .form3 {
@@ -242,6 +246,7 @@
     line-height: 30px;
     border-radius: 20px;
     background-color: #d1d1d1;
+    margin-top: 38px;
   }
 
   footer {
