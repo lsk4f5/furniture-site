@@ -4,6 +4,10 @@
 @media screen and (min-width: 479px) {
   /*ウィンドウ幅が767px以上の場合に適用*/
   /* トップページのcss */
+  body {
+    font-family: "Noto Sans", sans-serif;
+  }
+
   a {
     color: #272727;
   }
@@ -13,11 +17,8 @@
     color: gray;
     height: 55px;
     font-size: 16px;
-    font-family: "Noto Sans", sans-serif;
     display: flex;
-    padding-left: 89px;
-    padding-right: 89px;
-    padding-bottom: 11px;
+    padding: 0 89px 11px 89px;
     justify-content: space-between;
   }
 
@@ -26,7 +27,6 @@
   }
   nav {
     display: flex;
-    font-family: "Noto Sans", sans-serif;
   }
 
   .header-list {
@@ -65,7 +65,6 @@
     height: 82px;
     padding: 45px 45px 20px 88px;
     letter-spacing: 0.3rem;
-    font-family: "Noto Sans", sans-serif;
   }
   .copy-container img {
     width: 33%;
@@ -76,15 +75,12 @@
   .copy-container {
     width: 100%;
     box-sizing: border-box;
-    font-family: "Noto Sans", sans-serif;
     color: #3b3b3b;
     background-image: url("img/main-pc.jpeg");
     background-repeat: no-repeat;
     background-position: top 142px left 88px;
     background-size: 500px 544px;
-    padding-left: 702px;
-    padding-right: 104px;
-    padding-top: 343px;
+    padding: 343px 104px 0 702px;
   }
 
   .copy-container h2 {
@@ -97,23 +93,27 @@
     line-height: 3;
   }
 
-  .style-container-wrap {
-    width: 100%;
-  }
-
   .style-container-wrap h2 {
     background-image: url("img/style-pc01.jpeg");
     background-repeat: no-repeat;
     background-position: 50% 150%;
     background-size: 964px 503px;
-    margin-top: 11%;
     font-size: 26px;
     font-weight: lighter;
     letter-spacing: 0.2rem;
     color: #3b3b3b;
-    font-family: "Noto Sans", sans-serif;
     padding-bottom: 530px;
+    margin-top: 11%;
     text-align: center;
+  }
+
+  .style-btn {
+    text-align: center;
+  }
+
+  .style-btn button {
+    outline: none;
+    border: none;
   }
 
   .news-container {
@@ -125,7 +125,6 @@
     text-align: center;
     margin-top: 11%;
     font-size: 25px;
-    font-family: "Noto Sans", sans-serif;
   }
 
   .news-container a {
@@ -133,7 +132,6 @@
     text-align: center;
     margin-top: 5%;
     font-size: 25px;
-    font-family: "Noto Sans", sans-serif;
   }
 
   .news-container a {
@@ -209,16 +207,6 @@
     background-size: contain;
   }
 
-  .style-btn {
-    text-align: center;
-  }
-
-  .style-btn button {
-    outline: none;
-    border: none;
-    background: none;
-  }
-
   .button3 {
     color: slategrey;
   }
@@ -229,10 +217,8 @@
   }
 
   .contact-form h2 {
-    margin-top: 28%;
-    margin-bottom: 10%;
+    margin: 28% 0 10% 0;
     font-size: 29px;
-    font-family: "Noto Sans", sans-serif;
   }
 
   .form {
@@ -249,7 +235,6 @@
     opacity: 0.6;
     padding-left: 1%;
     margin: 4%;
-    font-family: "Noto Sans", sans-serif;
   }
 
   .form3 {
@@ -258,8 +243,7 @@
     border-radius: 11px;
     border: 0.5px solid #707070;
     opacity: 0.6;
-    padding-left: 1%;
-    padding-top: 1%;
+    padding: 1% 0 0 1%;
   }
 
   .btn {
@@ -280,10 +264,14 @@
     display: flex;
     justify-content: space-between;
     padding: 116px 221px 71px 227px;
-    font-family: "Noto Sans", sans-serif;
   }
 
   .flex p {
+    box-sizing: border-box;
+    font-size: 22px;
+  }
+
+  .footer-logo {
     box-sizing: border-box;
     font-size: 22px;
   }
@@ -302,9 +290,8 @@
     background-color: #918f89;
     color: white;
     text-align: center;
-    font-size: 14px;
-    margin-bottom: 0;
-    padding-bottom: 0;
+    font-size: 10px;
+    padding-bottom: 35px;
   }
 
   .footer-list a {
