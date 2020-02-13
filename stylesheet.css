@@ -23,6 +23,7 @@
 
   .header-logo {
     padding-top: 11px;
+    text-align: center;
   }
   nav {
     display: flex;
