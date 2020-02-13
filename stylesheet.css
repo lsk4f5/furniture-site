@@ -73,7 +73,8 @@
   }
 
   .copy-container {
-    width: 100%;
+    width: 1248px;
+    margin: 0 auto;
     box-sizing: border-box;
     color: #3b3b3b;
     background-image: url("img/main-pc.jpeg");
@@ -140,7 +141,7 @@
     width: 275.77px;
     height: 319.52px;
     position: relative;
-    margin: 0 89px 0 89px;
+    margin: 50px 89px 39px 89px;
   }
 
   .container img {
