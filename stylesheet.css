@@ -118,12 +118,13 @@
   .news-container {
     max-width: 100%;
     max-height: 520px;
+    margin-top: 11%;
   }
 
   .news-container h2 {
     text-align: center;
-    margin-top: 11%;
     font-size: 25px;
+    color: #3b3b3b;
   }
 
   .news-container a {
@@ -135,11 +136,6 @@
 
   .news-container a {
     text-decoration: none;
-  }
-
-  .news-container h2 {
-    margin-top: 8%;
-    color: #3b3b3b;
   }
 
   /* ここからスライド */
