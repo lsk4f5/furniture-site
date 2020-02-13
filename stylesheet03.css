@@ -14,7 +14,6 @@
     padding: 216px 0px 207px 228px;
     font-size: 30px;
     color: #ffffff;
-    font-family: "Noto Sans", sans-serif;
   }
 
   header h1 {
@@ -25,7 +24,6 @@
   .question {
     margin: 98px 0 215px 0;
     text-align: center;
-    font-family: "Noto Sans", sans-serif;
     font-weight: lighter;
     color: #3b3b3b;
   }
@@ -49,8 +47,7 @@
     opacity: 0;
     transition: 0.5s;
     visibility: hidden;
-    padding-bottom: 100px;
-    padding-left: 500px;
+    padding: 0 0 100px 500px;
     text-align: left;
     font-size: 12px;
   }
@@ -64,46 +61,5 @@
 
   .fa-angle-down:before {
     margin-left: 187px;
-  }
-
-  .footer {
-    background-color: #918f89;
-    color: white;
-    width: 100%;
-    height: 284px;
-    margin-top: 5%;
-    font-family: "Noto Sans", sans-serif;
-  }
-
-  .flex {
-    display: flex;
-    justify-content: space-between;
-    padding: 116px 221px 71px 227px;
-  }
-
-  .footer-logo {
-    box-sizing: border-box;
-    font-size: 22px;
-  }
-
-  ul.footer-list {
-    display: flex;
-    font-size: 18px;
-  }
-
-  .footer-list li {
-    margin-left: 104px;
-  }
-
-  .footer-last {
-    background-color: #918f89;
-    color: white;
-    text-align: center;
-    font-size: 10px;
-  }
-
-  .footer-list a {
-    text-decoration: none;
-    color: #ffffff;
   }
 }
