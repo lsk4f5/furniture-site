@@ -140,7 +140,8 @@
     width: 275.77px;
     height: 319.52px;
     position: relative;
-    margin: 7%;
+    margin: 0 89px 0 89pxs;
+    /* margin: 7%; */
   }
 
   .container img {
@@ -182,6 +183,7 @@
 
   .slide-container {
     display: flex;
+    justify-content: space-between;
   }
 
   #img1 {
