@@ -130,11 +130,7 @@
   .news-container a {
     display: block;
     text-align: center;
-    margin-top: 5%;
     font-size: 25px;
-  }
-
-  .news-container a {
     text-decoration: none;
   }
 
