@@ -205,7 +205,7 @@
   .contact-form {
     text-align: center;
     color: #3b3b3b;
-    margin: 28% 0 10% 0;
+    margin: 28% 0 25% 0;
   }
 
   .contact-form h2 {
@@ -242,7 +242,6 @@
     line-height: 30px;
     border-radius: 20px;
     background-color: #d1d1d1;
-    margin-bottom: 20%;
   }
 
   footer {
