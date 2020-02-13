@@ -54,12 +54,11 @@
   }
 
   .main-image h1 {
-    top: 0;
-    margin-top: 324px;
+    top: 324px;
     font-size: 55px;
     position: absolute;
     color: #918f91;
-    background: #ffffff;
+    background: #fff;
     opacity: 0.8;
     width: 554px;
     height: 82px;
