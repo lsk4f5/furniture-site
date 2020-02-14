@@ -78,23 +78,23 @@
   }
 
   .container:hover .text {
-    color: white;
+    color: #fff;
     top: 50%;
   }
 
   #img1 {
     background-image: url("img/news-1-pc.jpeg");
-    background-size: contain;
+    background-size: cover;
   }
 
   #img2 {
     background-image: url("img/news-2-pc.jpeg");
-    background-size: contain;
+    background-size: cover;
   }
 
   #img3 {
     background-image: url("img/news-3-pc.jpeg");
-    background-size: contain;
+    background-size: cover;
   }
 
   .slide-container {
