@@ -191,19 +191,19 @@
 
   #img1 {
     background-image: url("img/news-1-pc.jpeg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
   }
 
   #img2 {
     background-image: url("img/news-2-pc.jpeg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
   }
 
   #img3 {
     background-image: url("img/news-3-pc.jpeg");
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
   }
 
