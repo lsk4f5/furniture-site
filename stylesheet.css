@@ -265,6 +265,7 @@
   .flex {
     display: flex;
     justify-content: space-between;
+    text-align: center;
     padding: 116px 221px 71px 227px;
   }
 
