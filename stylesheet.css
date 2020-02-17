@@ -126,6 +126,7 @@
     max-height: 520px;
     justify-content: space-between;
     margin: 0 89px 221px 89px;
+    text-align: center;
   }
 
   .news-container h2 {
