@@ -129,14 +129,12 @@
   }
 
   .news-container h2 {
-    text-align: center;
     font-size: 25px;
     color: #3b3b3b;
   }
 
   .news-container a {
     display: inline-block;
-    padding: 0 45% 0 45%;
     font-size: 25px;
     text-decoration: none;
   }
