@@ -12,6 +12,7 @@
     background-size: cover;
     background-position: 1% 2%;
     padding: 216px 0px 207px 228px;
+    margin-bottom: 98px;
     font-size: 30px;
     color: #fff;
   }
@@ -22,7 +23,7 @@
   }
 
   .question {
-    margin: 98px 0 215px 0;
+    margin-bottom: 215px;
     text-align: center;
     font-weight: lighter;
     color: #3b3b3b;
