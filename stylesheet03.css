@@ -43,13 +43,12 @@
   .acd-label {
     display: inline-block;
   }
-
   .acd-content {
     height: 0;
     opacity: 0;
     transition: 0.5s;
     visibility: hidden;
-    padding: 0 0 100px 500px;
+    padding: 0 0 100px 400px;
     text-align: left;
     font-size: 12px;
   }
