@@ -214,7 +214,6 @@
 
   .contact-form {
     text-align: center;
-    align-items: center;
     color: #3b3b3b;
     margin-bottom: 221px;
   }
@@ -224,7 +223,9 @@
   }
 
   .form {
+    display: flex;
     flex-direction: column;
+    align-items: center;
   }
 
   .form1 {
@@ -233,8 +234,8 @@
     border-radius: 11px;
     border: 0.5px solid #707070;
     opacity: 0.6;
-    padding-left: 1%;
-    margin: 30px auto;
+    padding: 2px;
+    margin-bottom: 30px;
     display: block;
   }
 
