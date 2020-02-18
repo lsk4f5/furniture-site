@@ -27,15 +27,15 @@
 
   .news-container h2 {
     text-align: center;
-    margin-top: 11%;
     font-size: 21px;
     font-weight: lighter;
     color: #3b3b3b;
     letter-spacing: 0.3rem;
+    margin-bottom: 80px;
   }
 
   .news-container {
-    margin-bottom: 15%;
+    margin: 11% 10% 15% 10%;
   }
 
   /* ここからスライド */
