@@ -27,6 +27,7 @@
     text-align: center;
     font-weight: lighter;
     color: #3b3b3b;
+    margin: 0 100px 0 100px;
   }
 
   .question h2 {
@@ -48,7 +49,7 @@
     opacity: 0;
     transition: 0.5s;
     visibility: hidden;
-    padding: 0 0 100px 400px;
+    padding: 0 0 100px 405px;
     text-align: left;
     font-size: 12px;
   }
