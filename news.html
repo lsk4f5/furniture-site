@@ -7,18 +7,28 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="stylesheet02.css">
+    <link rel="stylesheet" href="mobile.css">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
 </head>
 
 <body>
     <header>
         <div class="main-header">
-            <p class="header-logo">HTML<br>CSS</p>
-            <nav>
+            <div class="menu">
+                <p class="header-logo">HTML<br>CSS</p>
+                <div id="target">
+                    <div class="target_inner">
+                        　　　　<span class="target_inner_line target_inner_1" id="line1"></span>
+                        　　　　<span class="target_inner_line target_inner_2" id="line2"></span>
+                        　　　　<span class="target_inner_line target_inner_3" id="line3"></span>
+                    </div>
+                </div>
+            </div>
+            <nav class="nav" id="nav_id">
                 <ul class="header-list">
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="news.html">News</a></li>
-                    <li><a href="Q&A.html">Q&A</a></li>
+                    <li><a href="index.html" class="list">About</a></li>
+                    <li><a href="news.html" class="list">News</a></li>
+                    <li><a href="Q&A.html" class="list">Q&A</a></li>
                 </ul>
             </nav>
         </div>
@@ -54,6 +64,7 @@
         </div>
         <p class="footer-last">@HTMLCSS.code</p>
     </footer>
+    <script src="test.js"></script>
 </body>
 
 </html>
