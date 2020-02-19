@@ -1,0 +1,68 @@
+@charset "utf-8";
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans&display=swap");
+
+@media screen and (min-width: 479px) {
+  /* Q&Aページのcss */
+  a {
+    color: #272727;
+  }
+
+  .top-main {
+    background-image: url("img/Q&A-main.jpeg");
+    background-size: cover;
+    background-position: 1% 2%;
+    padding: 216px 0px 207px 228px;
+    margin-bottom: 98px;
+    font-size: 30px;
+    color: #fff;
+  }
+
+  header h1 {
+    top: 0;
+    letter-spacing: 3px;
+  }
+
+  .question {
+    margin-bottom: 215px;
+    text-align: center;
+    font-weight: lighter;
+    color: #3b3b3b;
+    margin: 0 30% 10% 30%;
+  }
+
+  .question h2 {
+    margin-bottom: 73px;
+    letter-spacing: 2px;
+    font-weight: lighter;
+  }
+
+  .acd-check {
+    display: none;
+    margin-bottom: 100px;
+  }
+
+  .acd-label {
+    display: flex;
+    justify-content: space-between;
+  }
+  .acd-content {
+    height: 0;
+    opacity: 0;
+    transition: 0.5s;
+    visibility: hidden;
+    padding-bottom: 80px;
+    text-align: left;
+    font-size: 12px;
+  }
+
+  .acd-check:checked + .acd-label + .acd-content {
+    height: 40px;
+    opacity: 1;
+    margin: 25px 0 0px 0px;
+    visibility: visible;
+  }
+
+  .fa-angle-down:before {
+    margin-left: 187px;
+  }
+}
