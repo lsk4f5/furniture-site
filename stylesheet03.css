@@ -42,7 +42,8 @@
   }
 
   .acd-label {
-    display: inline-block;
+    display: flex;
+    justify-content: center;
   }
   .acd-content {
     height: 0;
