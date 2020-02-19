@@ -4,32 +4,35 @@
 <head>
     <meta charset="utf-8">
     <title>HTMLCSS</title>
-    <link rel="stylesheet" href="test.css">
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="test.css">
 </head>
 
 <body>
-    <header>
-        <section class="main-header">
-            <div class="header-logo">
-                <h1>HTML<br>CSS</h1>
+    <header class="menu">
+        <div>
+            <p class="header-logo">HTML<br>CSS</p>
+            <div id="target">
+                <div class="target_inner">
+                    　　　　<span class="target_inner_line target_inner_1" id="line1"></span>
+                    　　　　<span class="target_inner_line target_inner_2" id="line2"></span>
+                    　　　　<span class="target_inner_line target_inner_3" id="line3"></span>
+                </div>
             </div>
-        </section>
-        <nav class="global-nav">
-            <ul class="global-nav__list">
-                <li><a href="index.html">About</a></li>
-                <li><a href="news.html">News</a></li>
-                <li><a href="Q&A.html">Q&A</a></li>
+        </div>
+    </header>
+    <div class="navilist">
+        <nav class="nav" id="nav_id">
+            <ul>
+                <li><a href="#one" class="list">one</a></li>
+                　　<li><a href="#two" class="list">two</a></li>
+                　　<li><a href="#three" class="list">three</a></li>
+                <!-- 　 <li><a href="#four" class="list">four</a></li> -->
             </ul>
         </nav>
-        <div class="hamburger" id="js-hamburger">
-            <span class="hamburger__line hamburger__line--1"></span>
-            <span class="hamburger__line hamburger__line--2"></span>
-            <span class="hamburger__line hamburger__line--3"></span>
-        </div>
-        <!-- <div class="black-bg" id="js-black-bg"></div> -->
-    </header>
+    </div>
     <script src="test.js"></script>
+
 </body>
 
 </html>
