@@ -241,13 +241,10 @@
   .contact-form {
     text-align: center;
     color: #3b3b3b;
-    margin-bottom: 221px;
+    margin: 0 10% 40% 10%;
   }
   .contact-form h2 {
     font-size: 29px;
-  }
-  .form {
-    margin: 0 10%;
   }
   .form1 {
     width: 100%;
