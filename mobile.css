@@ -316,7 +316,10 @@
     margin-bottom: 30%;
   }
   /* ここにviewmore */
-
+  .news-view {
+    font-weight: lighter;
+    font-size: 21px;
+  }
   /* ここからQ＆A */
   #qa-main {
     position: relative;
@@ -341,7 +344,6 @@
   }
   .acd-check {
     display: none;
-    /* margin-bottom: 100px; */
   }
   .acd-label {
     display: flex;
