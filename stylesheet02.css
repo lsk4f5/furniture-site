@@ -38,6 +38,9 @@
     margin: 11% 10% 15% 10%;
   }
 
+  a.news-view {
+    display: none;
+  }
   /* ここからスライド */
   .container {
     width: 275.77px;
