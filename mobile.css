@@ -141,7 +141,7 @@
     padding: 5px 20px 5px 10px;
   }
   .copy-container {
-    margin: 20% 2% 0 2%;
+    margin: 20% 2% 30% 2%;
     height: 700px;
     box-sizing: border-box;
     color: #3b3b3b;
@@ -162,7 +162,7 @@
   }
   .style-container-wrap {
     text-align: center;
-    margin: 120px 5px 140px 5px;
+    margin: 0 5px 140px 5px;
   }
   .style-container-wrap h2 {
     background-image: url("img/mobile-style.jpeg");
