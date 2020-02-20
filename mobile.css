@@ -8,17 +8,18 @@
   a {
     color: #272727;
   }
+  header {
+    height: 55px;
+    width: 100%;
+    background-color: #918f89;
+  }
   .main-header {
     color: #918f89;
-    justify-content: space-between;
   }
   /* ここからメニュー */
   .menu {
-    height: 55px;
     position: relative;
-    background-color: #918f89;
     z-index: 1;
-    width: 100%;
   }
   .header-logo {
     text-align: center;
@@ -51,7 +52,7 @@
   }
   a {
     display: block;
-    padding: 35px;
+    padding: 35px 0;
     color: #fff;
     text-decoration: none;
     font-weight: lighter;
@@ -296,19 +297,68 @@
     color: #ffffff;
   }
   /* ここからnews */
-  .top-main {
+  #news-main {
     position: relative;
     background-image: url("img/mobile-newstop.jpeg");
     background-size: cover;
-    height: 647px;
-    width: 100%;
     z-index: -1;
+    padding: 135px 139px 290px 140px;
+    font-size: 30px;
+    color: #918f89;
   }
-
-  .top-main {
+  .news-container {
+    margin: 30% 10% 30% 10%;
+  }
+  .news-container h2 {
+    font-weight: lighter;
     letter-spacing: 0.3rem;
-    position: absolute;
-    top: 150px;
-    left: 0;
+    margin-bottom: 30%;
+  }
+  /* ここにviewmore */
+
+  /* ここからQ＆A */
+  #qa-main {
+    position: relative;
+    background-image: url("img/mobile-qatop.jpeg");
+    background-size: cover;
+    z-index: -1;
+    padding: 135px 139px 290px 140px;
+    font-size: 30px;
+    color: #fff;
+  }
+  .question {
+    margin-bottom: 215px;
+    text-align: center;
+    font-weight: lighter;
+    color: #3b3b3b;
+    margin: 30% 10% 40% 10%;
+  }
+  .question h2 {
+    margin-bottom: 50px;
+    letter-spacing: 2px;
+    font-weight: lighter;
+  }
+  .acd-check {
+    display: none;
+    /* margin-bottom: 100px; */
+  }
+  .acd-label {
+    display: flex;
+    justify-content: space-between;
+  }
+  .acd-content {
+    height: 0;
+    opacity: 0;
+    transition: 0.5s;
+    visibility: hidden;
+    padding-bottom: 40px;
+    text-align: left;
+    font-size: 12px;
+  }
+  .acd-check:checked + .acd-label + .acd-content {
+    height: 40px;
+    opacity: 1;
+    margin: 30px 0 0px 0px;
+    visibility: visible;
   }
 }
