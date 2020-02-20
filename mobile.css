@@ -272,6 +272,7 @@
     border-radius: 20px;
     background-color: #d1d1d1;
     margin-top: 38px;
+    border-bottom: none;
   }
   footer {
     background-color: #918f89;
