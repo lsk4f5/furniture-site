@@ -277,6 +277,7 @@
     height: 260px;
     text-align: center;
     padding-top: 86px;
+    box-sizing: border-box;
   }
   .footer-logo {
     display: inline-block;
