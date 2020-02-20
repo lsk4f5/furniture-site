@@ -148,7 +148,7 @@
     background-image: url("img/mobile-copy.jpeg");
     background-repeat: no-repeat;
     background-size: 286px 266px;
-    background-position: top 380px left 44px;
+    background-position: top 90% right 50%;
     text-align: center;
   }
   .copy-container h2 {
@@ -191,6 +191,7 @@
     display: inline-block;
     font-size: 25px;
     text-decoration: none;
+    color: #3b3b3b;
   }
   /* ここからスライド */
   .container {
