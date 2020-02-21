@@ -6,10 +6,36 @@
   /* トップページのcss */
   body {
     font-family: "Noto Sans", sans-serif;
+    animation: fadeIn 1s ease 0s 1 normal;
+    -webkit-animation: fadeIn 1s ease 0s 1 normal;
   }
 
   a {
     color: #272727;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity: 0;
+    }
+
+    100% {
+      opacity: 1;
+    }
   }
 
   .main-header {
@@ -22,7 +48,6 @@
   }
 
   .header-logo {
-    padding-top: 11px;
     text-align: center;
   }
   nav {
@@ -45,6 +70,10 @@
     text-decoration: none;
   }
 
+  #list {
+    border-bottom: solid 2px #272727;
+  }
+
   .main-image {
     position: relative;
     background-image: url("img/top-pc.jpeg");
@@ -60,10 +89,9 @@
     color: #918f91;
     background: #fff;
     opacity: 0.8;
-    width: 554px;
-    height: 82px;
     padding: 45px 45px 20px 88px;
     letter-spacing: 0.3rem;
+    white-space: nowrap;
   }
 
   .copy-container img {

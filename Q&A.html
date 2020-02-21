@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="stylesheet.css">
     <link rel="stylesheet" href="stylesheet03.css">
+    <link rel="stylesheet" href="mobile.css">
     <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
 </head>
@@ -18,9 +19,9 @@
                 <p class="header-logo">HTML<br>CSS</p>
                 <div id="target">
                     <div class="target_inner">
-                        　　　　<span class="target_inner_line target_inner_1" id="line1"></span>
-                        　　　　<span class="target_inner_line target_inner_2" id="line2"></span>
-                        　　　　<span class="target_inner_line target_inner_3" id="line3"></span>
+                        <span class="target_inner_line target_inner_1" id="line1"></span>
+                        <span class="target_inner_line target_inner_2" id="line2"></span>
+                        <span class="target_inner_line target_inner_3" id="line3"></span>
                     </div>
                 </div>
             </div>
@@ -28,13 +29,13 @@
                 <ul class="header-list">
                     <li><a href="index.html" class="list">About</a></li>
                     <li><a href="news.html" class="list">News</a></li>
-                    <li><a href="Q&A.html" class="list">Q&A</a></li>
+                    <li><a href="Q&A.html" class="list" id="list">Q&A</a></li>
                 </ul>
             </nav>
         </div>
     </header>
     <main>
-        <h1 class="top-main">Q&A</h1>
+        <h1 class="top-main" id="qa-main">Q&A</h1>
         <section class="question">
             <h2>よくある質問</h2>
             <input id="acd-check1" class="acd-check" type="checkbox">
@@ -72,6 +73,7 @@
             @HTMLCSS.code
         </p>
     </footer>
+    <script src="index.js"></script>
 </body>
 
 </html>

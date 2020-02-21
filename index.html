@@ -6,18 +6,26 @@
     <title>HTML/CSS</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="mobile.css">
     <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0">
 </head>
 
 <body>
     <header>
         <div class="main-header">
-            <p class="header-logo">HTML<br>CSS</p>
-            <nav>
+            <div class="menu">
+                <p class="header-logo">HTML<br>CSS</p>
+                <div id="target">
+                    <span class="target_inner_line target_inner_1" id="line1"></span>
+                    <span class="target_inner_line target_inner_2" id="line2"></span>
+                    <span class="target_inner_line target_inner_3" id="line3"></span>
+                </div>
+            </div>
+            <nav class="nav" id="nav_id">
                 <ul class="header-list">
-                    <li><a href="index.html">About</a></li>
-                    <li><a href="news.html">News</a></li>
-                    <li><a href="Q&A.html">Q&A</a></li>
+                    <li><a href="index.html" class="list" id="list">About</a></li>
+                    <li><a href="news.html" class="list">News</a></li>
+                    <li><a href="Q&A.html" class="list">Q&A</a></li>
                 </ul>
             </nav>
         </div>
@@ -25,7 +33,7 @@
     <main>
         <!-- ヘッダーの下の画像 -->
         <section class="main-image">
-            <h1>We propose a life.</h1>
+            <h1><span> We</span><span> propose</span><span> a life.</span></h1>
         </section>
         <!--画像とキャッチコピー-->
         <section class="copy-container">
@@ -73,7 +81,7 @@
     <!--最下部のリスト-->
     <footer>
         <div class="flex">
-            <p>HTML<br>CSS</p>
+            <p class="footer-logo">HTML<br>CSS</p>
             <ul class="footer-list">
                 <li><a href="index.html">About</a></li>
                 <li><a href="news.html">News</a></li>
@@ -82,6 +90,7 @@
         </div>
         <p class="footer-last">@HTMLCSS.code</p>
     </footer>
+    <script src="index.js"></script>
 </body>
 
 </html>
