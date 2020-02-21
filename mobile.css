@@ -288,7 +288,8 @@
   #news-main {
     background-image: url("img/mobile-newstop.jpeg");
     background-size: cover;
-    padding: 135px 139px 290px 140px;
+    text-align: center;
+    padding: 135px 0 290px 0;
     font-size: 30px;
     color: #918f89;
   }
