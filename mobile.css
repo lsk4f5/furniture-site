@@ -15,6 +15,7 @@
     position: sticky;
     position: -webkit-sticky;
     top: 0; /*ブラウザの上からの距離はゼロ*/
+    z-index: 100;
   }
   .main-header {
     color: #918f89;
@@ -243,7 +244,6 @@
     text-align: center;
     color: #3b3b3b;
     margin: 0 10% 40% 10%;
-    z-index: -1;
   }
   .contact-form h2 {
     font-size: 29px;
