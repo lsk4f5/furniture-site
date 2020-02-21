@@ -322,7 +322,7 @@
     background-image: url("img/mobile-qatop.jpeg");
     background-size: cover;
     z-index: -1;
-    padding: 135px 139px 290px 140px;
+    padding: 135px 0 290px 0;
     font-size: 30px;
     color: #fff;
     text-align: center;
