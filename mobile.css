@@ -12,6 +12,9 @@
     height: 55px;
     width: 100%;
     background-color: #918f89;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0; /*ブラウザの上からの距離はゼロ*/
   }
   .main-header {
     color: #918f89;
@@ -177,6 +180,7 @@
   .news-container {
     margin: 0 44px 150px 44px;
     text-align: center;
+    z-index: -1;
   }
   .news-container h2 {
     font-size: 25px;
@@ -236,6 +240,7 @@
     text-align: center;
     color: #3b3b3b;
     margin: 0 10% 40% 10%;
+    z-index: -1;
   }
   .contact-form h2 {
     font-size: 29px;
