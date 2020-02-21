@@ -193,6 +193,9 @@
     color: #3b3b3b;
   }
   /* ここからスライド */
+  .slide-container {
+    margin: 0 3%;
+  }
   .container {
     margin-bottom: 25%;
     height: 319.5px;
